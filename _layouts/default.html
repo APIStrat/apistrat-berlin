@@ -20,8 +20,8 @@
       <div class="collapse navbar-collapse text-fit" id="tyler-navigation">
         <div class="menu-menu-1-container">
           <ul id="menu-primary" class="transition">
-            <li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-61"><a href="/">Home</a></li>
-            <li id="menu-item-542" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-542"><a href="/schedule/">Schedule</a></li>
+            <li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item{% if page.title = "APIDays Berlin and APIStrat Europe 2015" %} current_page_item menu-item-home{% else %}menu-item-61{% endif %}"><a href="/">Home</a></li>
+            <li id="menu-item-542" class="menu-item menu-item-type-custom menu-item-object-custom{% if page.title = "APIDays Berlin and APIStrat Europe 2015 - Schedule" %}current_page_item menu-item-home{% else %}menu-item-542{% endif %}"><a href="/schedule/">Schedule</a></li>
             <li id="menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-553"><a href="/speakers/">Speakers</a></li>
             <li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="/venue/">Venue</a></li>
             <li id="menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-380"><a href="http://speedhack.io/events/berlin-speedhack">Speedhack</a></li>
